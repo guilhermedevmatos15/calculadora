@@ -5,6 +5,8 @@ const clear = document.querySelector('td.clear');
 const backspace = document.querySelector('td.backspace');
 const equal = document.querySelector('td.equal');
 
+// const keyNumbers = [48,49,50,51,52,53,54,55,56,57];
+
 numbers.map((element) => {
    element.addEventListener('click', () => {
       const number = Number(element.innerHTML);
